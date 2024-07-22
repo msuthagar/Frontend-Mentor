@@ -1,0 +1,149 @@
+
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+
+}
+:root {
+    --whi: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --Wenge: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+    --bro:hsl(14,45%,36%);
+}
+body{
+    background-color: var(--Eggshell);
+    color: var(--Wenge)
+    font-family: 'outfit',sans-serif;
+}
+
+
+@media all and (max-width:375px){
+    .wrapper{
+        max-width: 375px;
+        height:fit-content;
+        padding:auto;
+        margin: auto;
+        box-sizing: content-box;
+
+    }
+
+}
+
+
+.wrapper{
+    max-height: 1440px;
+    max-width: 520px;
+    margin: auto auto;
+}
+
+
+
+
+
+/* .wrapper{
+
+    max-width: 1440px;
+    min-width: 375px;
+    margin-inline:auto;
+    padding:2rem;
+} */
+.container{
+    background-color: var(--whi);
+    padding:1.5rem;
+   border-radius: 1rem;
+
+}
+ .image img{
+    max-width:100%;
+    border-radius:1rem;
+}
+.header h1{
+    margin-top:1.5rem;
+}
+.header p{
+    
+    margin-top: 1rem;
+    
+}
+.preparationtime{
+    background-color: var(--RoseWhite);
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+.preparationtime ul{
+    list-style-position: inside;
+}
+.preparationtime li{
+    padding: 0.3rem;
+    margin-top: .3rem;
+}
+.preparationtime span{
+    font-weight: bold;
+}
+.preparationtime h3{
+    color:purple;
+}
+h2{
+    color: var(--bro);
+}
+.ingredients ul{
+    list-style-position: inside;
+    margin-top: 1rem;
+}
+
+.ingredients li{
+    padding:0.3rem;
+    margin-left: .2rem;
+}
+.ingredients{
+    margin-top: 1.5rem;
+}
+.Instruction{
+    margin-top: 1.5rem;
+}
+.Instruction>.item{
+    display:flex;
+    margin: 1rem;
+
+}
+.Instruction>.item span{
+    font-weight: bold;
+}
+.Instruction>.item>.num{
+    color: var(--bro);
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+.nutrition{
+    margin-top: 1.8rem;
+}
+.nutrition>p{
+margin: 1rem;
+}
+.nutrition>.item{
+    display:flex;
+    margin-left: 3rem;
+
+}
+.nutrition>.item>#cal1{
+    flex:1;
+}
+.nutrition>.item>#cal{
+    flex:1;
+    color: var(--bro);
+    font-weight:bold;
+}
+.nutrition>.item>p{
+    padding: 0.9rem;
+}
+@media all{
+
+}
